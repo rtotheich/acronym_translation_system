@@ -6,7 +6,7 @@ We present a system for providing verified translations of acronyms in scientifi
 
 For each term:
 
-- Generate a SF from the LF using a fine-tuned version of SciBERT
+- Generate a SF from the LF using a fine-tuned version of SciBERT (see <a href="https://github.com/rtotheich/acronym_translation_system/blob/main/acronym_scibert_fine_tuning.ipynb">acronym_scibert_fine_tuning.ipynb</a>)
 - Verify that the term is used by domain experts in at least two published works
 - Return a list of verified LF-SF pairs (in the form “cardiopulmonary resuscitation (CPR)") to the user or indicate that the terms were unable to be verified
 
