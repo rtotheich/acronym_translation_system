@@ -10,4 +10,4 @@ For each term:
 - Verify that the term is used by domain experts in at least two published works
 - Return a list of verified LF-SF pairs (in the form “cardiopulmonary resuscitation (CPR)") to the user or indicate that the terms were unable to be verified
 
-Incorrect translations are fatal errors in translation. Translating the French “rétinopathie diabétique” as “diabetic retinopathy (RD)” instead of “diabetic retinopathy (DR)” is akin to writing “AUS” instead of “USA” and saying that the acronym was “close enough”. This system offers a method for improving translation systems by focusing on their correctness rather than only on the fluency of generated text.
+Incorrect term translations (including SFs) are fatal errors in translation. Translating the French “rétinopathie diabétique” as “diabetic retinopathy (RD)” instead of “diabetic retinopathy (DR)” is akin to writing “AUS” instead of “USA” and saying that the acronym was “close enough”. This system offers a method for improving translation systems by focusing on their correctness rather than only on the fluency of generated text.
